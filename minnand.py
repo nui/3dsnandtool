@@ -117,7 +117,7 @@ def count_zero_in_unlocated_sectors(part):
 
 
 def main():
-    model = o3ds
+    model = n3ds
     for k in model.keys():
         part = model[k]
         fill_fat(part)
